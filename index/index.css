@@ -13,6 +13,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* border: 2px solid lightgreen; */
 }
 
 html{
@@ -239,28 +240,10 @@ div.homePage-container-one > .message{
   
 }
 
-div.homePage-container-one > .message > span{
-  /* font-family: 'SpaceAge',sans-serif; */
-  font-size: 28px;
-  padding-left: 8px;
-}
-
-div.two{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div.homePage-container-one-img > img{
-  width: 300px;
-  height: 300px;
-}
 /* Main */
 main{
   width: 100%;
   height: 50vh;
-  display: flex;
-  justify-content: center;
   background-color: #fff;
 }
 
@@ -272,60 +255,94 @@ h1.project-container-title{
   font-weight: 600;
   padding-top: 13px;
   text-align: center;
+}
+
+main div.project-container-content{
+  width: 100%;
+  height: 50vh;
+  /* background-color: yellow; */
   
+ }
+
+
+ /* Second-Section-Project */
+
+ section#project{
+ 
 }
 
-main>div.project-container-title>h1{
-   font-size: 50px;
-   text-align: center;
-}
-
- /* Second Section */
- section.project{
+.second-section div.project--container{
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
   background-color: #252525;
-  
  
 }
- 
-.project-container{
+.project--container div.project-container-content{
   width: 100%;
-  display: flex;
-  justify-content: center;
-
-}
+  height: 86.5vh;
+  /* background-color: yellow; */
+ }
 
 /* Third-Section-Blog */
-.project.third-section{
-  background-color: #f7f7f7;
-  height: 100vh;
-  /* display: grid; */
+section#blog{
+  
 }
+
+.third-section div.blog--container{
+  width: 100%;
+  height: 100vh;
+  background-color: #f7f7f7;
+ 
+   }
+
+   .blog--container div.project-container-content{
+    width: 100%;
+    height: 86.5vh;
+    /* background-color: yellow; */
+   }
 
 /* Fourth-Section-About */
 .project.fourth-section{
-  background-image: url(../images/blob-scene-haikei.svg);
-  background-position:;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  display: grid;
-}
-h1.project-container-title.difference{
-  color: #00d8c9;
-}
-/* Fifth-Section */
-.project.fifth-section{
-  background-color: #00d8c9;
-  height: 100vh;
+  
 }
 
+.fourth-section div.about--container{
+  width: 100%;
+  height: 100vh;
+  background-color: #f7f7f7;
+  background-image: url(../images/blob-scene-haikei.svg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  
+   }
+
+.about--container div.project-container-content{
+    width: 100%;
+    height: 86.5vh;
+    /* background-color: yellow; */
+   }
+
+/* Fifth-Section-Contact */
+.project.fifth-section{
+  
+}
+
+.fifth-section div.contact--container{
+  background-color: #00d8c9;
+  width: 100%;
+  height: 100vh;
+  
+}
 h1.project-container-title.difference__2{
   color: #252525;
 }
+.contact--container div.project-container-content{
+  width: 100%;
+  height: 86.5vh;
+  /* background-color: yellow; */
+ }
 
 
 
@@ -377,7 +394,8 @@ footer h2 span.foot-style{
 
 h3.footer.footer__yr{
   text-align: center;
-  color: #fff;
-  font-family: Poppins,sans-serif;
+  color: #00d8ca;
+  font-family: 'Silkscreen', cursive;
   font-size: 13px;
+  font-weight: lighter;
 }
