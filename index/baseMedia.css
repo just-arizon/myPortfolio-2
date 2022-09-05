@@ -1,0 +1,42 @@
+/* andriod phone dimension */
+
+@media (max-width:349px){
+
+    section#blog{
+        height: 265vh;
+    }
+
+    .third-section div.blog--container{
+        height: 300vh;
+    }
+
+    h1.project-container-title{
+        font-size: 35px;
+    }
+
+    .blog--container div.project-container-content{
+        display: block;
+        justify-content: center;
+        height: 300vh;
+    }
+
+    .project-container-content__one{
+        width: 270px;
+        height: 500px;
+        margin-left:24px;
+        margin-bottom: 70px;
+    }
+
+    .project-container-content__one img{
+        width: 230px;
+    }
+    .project-container-content__one h1{
+        font-size: 18px;
+    }
+
+    .project-container-content__two{
+        display: block;
+        position:relative;
+        bottom: -32px;
+    }
+}

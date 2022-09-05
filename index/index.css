@@ -36,10 +36,7 @@ html::-webkit-scrollbar {
     
   }
 
-  /* html::-webkit-scrollbar-button {
-     background-color: #252525;
-     border: 3px solid #00d8ca;
-  } */
+ */
 
   div#preloader{
     width: 100%;
@@ -397,7 +394,7 @@ section#blog{
 
    .project-container-content__one{
       width: 370px;
-      height: 450px;
+      height: 550px;
       background-color: #252525;
       box-shadow:  20px 20px 60px #b5b5b5,
                    -20px -20px 60px #f5f5f5;
@@ -411,9 +408,9 @@ section#blog{
           transition: 1s ease-in-out;
    }
 
-   .project-container-content__one:hover{
+   /* .project-container-content__one:hover{
     background-color: #00d8c9;
-   }
+   } */
   
 
    .project-container-content__one img{
@@ -444,7 +441,7 @@ section#blog{
     height: 104px;
     /* background: #000; */
     display: grid;
-    grid-template-columns: auto auto auto;
+    /* grid-template-columns: auto auto auto; */
     
     
  }
