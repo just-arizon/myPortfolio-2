@@ -347,10 +347,130 @@ h1.project-container-title{
 
 main div.project-container-content{
   width: 100%;
-  height: 50vh;
+  height: 90vh;
   /* background-color: yellow; */
-  
+  display: grid;
+  grid-template-rows: 400px 176px;
  }
+
+div.one{
+  /* background: skyblue; */
+  display:grid;
+  justify-content:center ;
+  align-items: center;
+
+}
+ div.keyboard{
+  width: 940px;
+  height: 350px;
+  background: #333;
+  border-radius: 20px;
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+  10px 10px 70px rgba(0, 0, 0, 0.25),
+  inset -5px -5px 15px rgba(0, 0, 0, 0.5),
+  inset 5px 5px 15px rgba(0, 0, 0, 0.5)
+
+  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ div.phase-one{
+  width: 820px;
+  height: 300px;
+  /* background-color: #00d8ca; */
+  border-radius: 20px;
+  display: grid;
+  align-items: center;
+ 
+ }
+ div.phase-one::before{
+  content: "";
+  position: absolute;
+  width: 532px;
+  height: 50px;
+  top: 64.1rem;
+  left: 20rem;
+  background-image: linear-gradient(180deg, #2d2d2d, #4d4d4d
+  );
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+  10px 10px 70px rgba(0, 0, 0, 0.25),
+  inset -5px -5px 15px rgba(0, 0, 0, 0.5),
+  inset 2px 2px 25px rgba(0, 0, 0, 0.5)
+
+  ;
+ }
+/* .phase-one-extra-btn{
+  background: #000;
+  width: 200px;
+} */
+ div.phase-two{
+  /* background-color: #ddd; */
+  height: 300px;
+   
+  
+ 
+ }
+div.phase-two div.keyboard-buttons:nth-child(1){
+  position: relative;
+  bottom: -15.3rem;
+}
+
+div.keyboard-buttons{
+  height: 150px;
+  /* background-color: #00d8ca; */
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+ 
+}
+
+div.keyboard-buttons .btn{
+  width: 80px;
+  height: 50px;
+  background: linear-gradient(100deg, #2f2f2f, #3f3f3f);
+  box-shadow: 
+  inset -8px 0 8px rgba(0, 0, 0, 0.15),
+  inset -8px 0 8px rgba(0, 0, 0, 0.25),
+  0px 0 2px rgba(0, 0, 0, 0.75), 
+  10px 20px 25px rgba(0, 0, 0, 0.4)
+;
+  margin: 3px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  font-family: 'Zabal',sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.keyboard-buttons .btn::before{
+  content: '';
+  position: absolute;
+  background-image: linear-gradient(90deg, #2d2d2d, #4d4d4d);
+  /* background: pink; */
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+}
+span{
+  z-index: 1000;
+}
+.btn-arrows{
+ 
+  display: grid;
+  grid-template-rows: auto auto;
+ 
+}
+div.two{
+  /* background: pink; */
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.shown{
+   /* background: gray; */
+}
 
 
  /* Second-Section-Project */
@@ -475,8 +595,7 @@ section#blog{
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-  
-  
+    
 }
 
 .fourth-section div.about--container{
@@ -514,7 +633,7 @@ section#blog{
     font-size: 17px;
     font-family: "Poppins",sans-serif;
     padding: 30px 10px;
-    margin-top: 15px;
+    margin-top: 60px;
     text-align: center;
     letter-spacing: .5px;
     line-height: 30px;
@@ -581,6 +700,7 @@ footer{
   justify-content: center;
   align-items: center;
   position: relative;
+  bottom: -20rem;
   border-top: 2px solid #00d8c9;
 }
 
